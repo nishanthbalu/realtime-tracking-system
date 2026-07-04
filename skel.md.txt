@@ -1,0 +1,19 @@
+realtime-tracking-system/
+│
+├── docker/
+│   └── docker-compose.yml       # Infrastructure (Kafka, Zookeeper, Redis)
+│
+├── driver-service-java/         # Spring Boot Application
+│   ├── src/
+│   ├── pom.xml (or build.gradle)
+│   └── README.md
+│
+├── matching-service-python/     # FastAPI Application
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py              # FastAPI entry point
+│   │   └── consumer.py          # Kafka Consumer & Redis logic
+│   ├── requirements.txt
+│   └── README.md
+│
+└── README.md                    # Global project documentation
