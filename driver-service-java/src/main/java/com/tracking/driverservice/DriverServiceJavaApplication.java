@@ -1,4 +1,4 @@
-package com.tracking.driver_service_java;
+package com.tracking.driverservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
